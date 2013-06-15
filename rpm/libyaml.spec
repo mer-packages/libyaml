@@ -6,13 +6,8 @@ Group:      System Environment/Libraries
 License:    MIT
 URL:        http://pyyaml.org/
 Source0:    %{name}-%{version}.tar.gz
-Source100:  libyaml.yaml
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
-#!BuildIgnore: sb2-tools-qt5-armv6l-dependency-inject
-#!BuildIgnore: sb2-tools-qt5-armv7l-dependency-inject
-#!BuildIgnore: sb2-tools-qt5-armv7hl-dependency-inject
-#!BuildIgnore: sb2-tools-qt5-armv7tnhl-dependency-inject
 
 %description
 YAML is a data serialization format designed for human readability and
